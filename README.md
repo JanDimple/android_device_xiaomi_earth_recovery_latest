@@ -22,9 +22,19 @@ Camera (Front)  | 5 MP
 Sensors | Fingerprint (rear-mounted), accelerometer, virtual proximity sensing
 Others | OTG, 10W wired charging
 
-## Bugs (not tested)
+## Status
 
-You test and tell me
+- [X] Booting
+- [X] Decrypt /data
+- [X] Flash
+- [X] Restore
+- [X] Backup
+- [X] Fastbootd
+- [X] ADB
+
+## Bugs
+
+- [ ] Reboot To System (need test in MIUI 13)
 
 ## How to flash
 
@@ -40,11 +50,6 @@ You test and tell me
 2) adb pull /tmp/recovery.log
 3) adb shell dmesg > dmesg.log
 ```
-
-## Testers
-
-- After flashing, Check if there is any bug exist and take logs
-- Create a new `Flash Report` issue
 
 ## Device Picture
 
