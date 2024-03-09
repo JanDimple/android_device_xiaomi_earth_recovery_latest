@@ -194,8 +194,8 @@ TW_INCLUDE_FUSE_EXFAT := true
 TW_INCLUDE_FUSE_NTFS  := true
 
 # CPU schedtune
-# ENABLE_CPUSETS := true
-# ENABLE_SCHEDBOOST := true
+ENABLE_CPUSETS := true
+ENABLE_SCHEDBOOST := true
 
 # Disable mouse
 # TW_INPUT_BLACKLIST := "hbtp_vm"
