@@ -197,6 +197,12 @@ TW_INCLUDE_FUSE_NTFS  := true
 ENABLE_CPUSETS := true
 ENABLE_SCHEDBOOST := true
 
+# Log touch input
+TWRP_EVENT_LOGGING := true
+
+# Set the default language, if not english
+TW_DEFAULT_LANGUAGE := en-US
+
 # Disable mouse
 # TW_INPUT_BLACKLIST := "hbtp_vm"
 
