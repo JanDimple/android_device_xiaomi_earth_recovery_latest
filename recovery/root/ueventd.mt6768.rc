@@ -1,34 +1,17 @@
-import /vendor/etc/ueventd.rc
-import /odm/etc/ueventd.rc
-
-firmware_directories /etc/firmware/ /odm/firmware/ /vendor/firmware/ /firmware/image/
-uevent_socket_rcvbuf_size 16M
-
-subsystem graphics
-    devname uevent_devpath
-    dirname /dev/graphics
-
-subsystem drm
-    devname uevent_devpath
-    dirname /dev/dri
-
-subsystem input
-    devname uevent_devpath
-    dirname /dev/input
-
-subsystem sound
-    devname uevent_devpath
-    dirname /dev/snd
-
-subsystem dma_heap
-   devname uevent_devpath
-   dirname /dev/dma_heap
-
 #change partition permission
-/dev/block/mmcblk0                                              0660    root    system
-/dev/block/mmcblk0boot0                                         0660    root    system
-/dev/block/mmcblk0boot1                                         0660    root    system
-/dev/misc-sd                                                    0660    root    system
+
+# eMMC only
+/dev/block/mmcblk0           0660    root    system
+/dev/block/mmcblk0boot0      0660    root    system
+/dev/block/mmcblk0boot1      0660    root    system
+
+# UFS only
+/dev/block/sda               0660    root    system
+/dev/block/sdb               0660    root    system
+/dev/block/sdc               0660    root    system
+
+# eMMC/UFS common
+/dev/misc-sd                 0660    root    system
 /dev/block/by-name/misc2     0660    root    system
 /dev/block/by-name/boot      0640    root    system
 /dev/block/by-name/recovery  0640    root    system

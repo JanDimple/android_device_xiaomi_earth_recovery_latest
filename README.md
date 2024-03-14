@@ -32,11 +32,11 @@ Others | OTG, 10W wired charging
 - [X] Fastbootd
 - [X] ADB
 - [X] MTP
+- [X] Touch Screen
 
 ## Bugs
 
 - [ ] Reboot To System (need test in MIUI 13)
-- [ ] Touch Screen (works randomly)
 
 ## How to flash
 
