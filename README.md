@@ -32,11 +32,12 @@ Others | OTG, 10W wired charging
 - [X] Fastbootd
 - [X] ADB
 - [X] MTP
-- [X] Touch Screen
+- [X] Reboot To System
+- [X] Vibration
 
 ## Bugs
 
-- [ ] Reboot To System (need test in MIUI 13)
+- [ ] Touch Screen (works randomly)
 
 ## How to flash
 
@@ -44,6 +45,8 @@ Others | OTG, 10W wired charging
 1) fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img
 2) fastboot flash boot boot.img
 3) fastboot reboot recovery
+4) flash stock boot.img
+5) twrp -> advanced -> install recovery ramdisk
 ```
 
 ## How to take logs
