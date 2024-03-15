@@ -17,7 +17,7 @@ PRODUCT_PACKAGES += \
     charger
 
 # Product Specifics
-PRODUCT_NAME := twrp_earth
+PRODUCT_NAME := recovery_earth
 PRODUCT_DEVICE := earth
 PRODUCT_BRAND := Poco
 PRODUCT_MODEL := Poco C55
