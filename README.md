@@ -1,4 +1,4 @@
-# TWRP Device Tree for Xiaomi Poco C55 (earth)
+# Custom Recovery Device Tree for Xiaomi Poco C55 (earth)
 
 The Poco C55 is a budget range smartphone from Redmi, Released 2023, February 28
 
