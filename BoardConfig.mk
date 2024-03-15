@@ -223,3 +223,15 @@ PB_DISABLE_DEFAULT_DM_VERITY := true
 PB_DISABLE_DEFAULT_PATCH_AVB2 := true
 PB_DISABLE_DEFAULT_TREBLE_COMP := true
 PB_TORCH_PATH := "/sys/devices/platform/flashlights_mt6360/torch_brightness"
+
+# SHRP
+SHRP_PATH := device/xiaomi/earth
+SHRP_MAINTAINER := ARUN V
+SHRP_DEVICE_CODE := earth
+SHRP_NOTCH := true
+SHRP_EXTERNAL := /external_sd
+SHRP_INTERNAL := /sdcard
+SHRP_OTG := /usb_otg
+SHRP_REC := /dev/block/by-name/boot
+SHRP_DARK := true
+SHRP_OFFICIAL := false
