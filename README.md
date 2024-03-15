@@ -34,6 +34,7 @@ Others | OTG, 10W wired charging
 - [X] MTP
 - [X] Reboot To System
 - [X] Vibration
+- [X] OTG
 
 ## Bugs
 
