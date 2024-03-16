@@ -71,7 +71,7 @@ if [ "$1" = "$FDEVICE" -o "$FOX_BUILD_DEVICE" = "$FDEVICE" ]; then
 	export OF_RUN_POST_FORMAT_PROCESS=1
 	export OF_SKIP_ORANGEFOX_PROCESS=1
 
-	export OF_FL_PATH1="/sys/devices/platform/flashlights_mt6360/torch_brightness"
+	export OF_FL_PATH1="/sys/class/leds/flashlight/brightness"
     export OF_FLASHLIGHT_ENABLE=1
 
 	# let's see what are our build VARs
