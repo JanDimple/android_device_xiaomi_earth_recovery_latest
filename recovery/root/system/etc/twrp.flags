@@ -27,7 +27,6 @@
 /efuse                       emmc        /dev/block/by-name/efuse               
 /preloader                   emmc        /dev/block/by-name/preloader                    flags=display="Preloader";slotselect;
 /preloader_raw               emmc        /dev/block/by-name/preloader_raw                flags=display="Preloader_Raw";slotselect;
-/vendor_boot                 emmc        /dev/block/by-name/vendor_boot                  flags=display="Vendor_Boot";slotselect;
 
 # IMEI and modem related
 /nvram                       emmc        /dev/block/by-name/nvram                        flags=display="NvRam";backup=1;
