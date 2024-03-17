@@ -204,7 +204,7 @@ TWRP_EVENT_LOGGING := true
 TW_DEFAULT_LANGUAGE := en-US
 
 # Battery
-TW_CUSTOM_BATTERY_PATH := /sys/class/power_supply/battery/capacity
+# TW_CUSTOM_BATTERY_PATH := /sys/class/power_supply/battery/capacity
 
 # Disable mouse
 # TW_INPUT_BLACKLIST := "hbtp_vm"

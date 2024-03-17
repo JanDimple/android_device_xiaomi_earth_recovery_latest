@@ -11,11 +11,6 @@ $(call inherit-product, device/xiaomi/earth/device.mk)
 # Inherit some common TWRP stuff.
 $(call inherit-product, vendor/twrp/config/common.mk)
 
-# Charger
-PRODUCT_PACKAGES += \
-    charger_res_images \
-    charger
-
 # Product Specifics
 PRODUCT_NAME := recovery_earth
 PRODUCT_DEVICE := earth
