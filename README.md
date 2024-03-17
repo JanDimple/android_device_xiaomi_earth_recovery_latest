@@ -22,7 +22,7 @@ Camera (Front)  | 5 MP
 Sensors | Fingerprint (rear-mounted), accelerometer, virtual proximity sensing
 Others | OTG, 10W wired charging
 
-## Status
+## Current Status
 
 - [X] Booting
 - [X] Decrypt /data
@@ -35,10 +35,14 @@ Others | OTG, 10W wired charging
 - [X] Reboot To System
 - [X] Vibration
 - [X] OTG
+- [X] Touch Screen
+- [X] Correct Screen Size
+- [X] Brightness
 
-## Bugs
+## Known Bugs
 
-- [ ] Touch Screen (works randomly)
+- [ ] Battery Percentage (works randomly)
+- [ ] /persistbak Mount Error
 
 ## How to flash
 
@@ -46,7 +50,7 @@ Others | OTG, 10W wired charging
 1) fastboot --disable-verity --disable-verification flash vbmeta vbmeta.img
 2) fastboot flash boot boot.img
 3) fastboot reboot recovery
-4) flash stock boot.img
+4) flash stock boot.img in twrp
 5) twrp -> advanced -> install recovery ramdisk
 ```
 
