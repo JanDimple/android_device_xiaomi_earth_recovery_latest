@@ -85,7 +85,7 @@ on property:twrp.all.users.decrypted=true
 on boot
     start boot-hal-1-2
     start health-hal-2-1
-    start load_ts_firmware
+    start update_ts_firmware
 
 # Fix flashlight on orangefox
 on property:ro.orangefox.boot=1
@@ -104,7 +104,7 @@ service flashlightd /bin/hw/logcat_daemon
     oneshot  # not confident enough to have it auto restart
     disabled
 
-service load_ts_firmware /system/bin/load_ts_firmware.sh
+service update_ts_firmware /system/bin/update_ts_firmware.sh
     oneshot
     user root
     group root
