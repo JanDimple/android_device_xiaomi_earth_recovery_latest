@@ -42,7 +42,6 @@ Others | OTG, 10W wired charging
 ## Known Bugs
 
 - [ ] Battery Percentage (works randomly)
-- [ ] /persistbak Mount Error
 
 ## How to flash
 
