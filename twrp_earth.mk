@@ -12,10 +12,10 @@ $(call inherit-product, device/xiaomi/earth/device.mk)
 $(call inherit-product, vendor/twrp/config/common.mk)
 
 # Product Specifics
-PRODUCT_NAME := recovery_earth
+PRODUCT_NAME := twrp_earth
 PRODUCT_DEVICE := earth
-PRODUCT_BRAND := Poco
-PRODUCT_MODEL := Poco C55
+PRODUCT_BRAND := Xiaomi
 PRODUCT_MANUFACTURER := Xiaomi
+PRODUCT_RELEASE_NAME := earth
 
 PRODUCT_GMS_CLIENTID_BASE := android-xiaomi
